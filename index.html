@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDB(Movie Data Base)</title>
+    <link rel="icon" type="image" href="https://cdn-icons-png.flaticon.com/128/777/777242.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Heading of Page -->
+    <div id="heading-container">
+        <div id="heading-name">
+            <h1>MDB</h1>
+        </div>
+        <div id="heading-favourites">
+            <button onclick="showFavourites(favourite)">Favourites</button>
+        </div>
+    </div>
+
+    <!-- Search Bar to take input -->
+    <div id="search-bar-container">
+        <div id="search-bar-input">
+            <input type="text" required placeholder="Enter Movie Name" id="search-bar">
+        </div>
+        <div id="search-bar-button">
+            <button onclick="takeInput()">Search</button>
+        </div>
+    </div>
+
+    <!-- Search result will be shown here  -->
+    <div id="search-result-container">
+        <div class="search-result">
+            <!-- <img src="https://www.omdbapi.com/src/poster.jpg" alt="Not Found" >
+            <h3>Blade Runner 2045</h3>
+            <p>2017</p>
+            <button >More Info</button>
+            <button >Add to Favourites</button> -->
+            <h1>Please Enter Movie Name</h1>
+        </div>
+    </div>
+
+        <!-- More info about movie will be shown here  -->
+        <div id="more-info-container">
+        <div id="more-info-content">
+            <!-- <img src="https://www.omdbapi.com/src/poster.jpg" alt="Not Found">
+            <div class="text-content">
+            <h3 class="more-info-heading">Blade Runner 2045</h3>
+            <p>2017</p>
+            <h5>Rating :</h5>
+            <p>6.8 / 10</p>
+            <h5>Plot : </h5> 
+            <p>plot</p>
+            <h5>Cast : </h5> 
+            <p>cast</p>
+            <h5>Genre : </h5> 
+            <p>genre </p>
+            <button id="close">Close</button>
+           </div> -->
+        </div>
+    </div> 
+
+    <!-- Favourite movie list is shown here -->
+    <div id="favourites-container">
+        <div id="favourites-list">
+            <button id="favourites-close">Close</button>
+            <ul id="movie-favourite">
+                <!-- <li>
+                    <p>Movie Title</p>
+                    <button>More Info</button>
+                    <img src="https://cdn-icons-png.flaticon.com/16/1214/1214428.png" alt="Delete">
+                </li> -->
+            </ul>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
